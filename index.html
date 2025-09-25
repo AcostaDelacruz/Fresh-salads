@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salad Orders • Ismaris</title>
+<style>
+  :root {
+    --green:#2e7d32;
+    --mint:#e8f5e9;
+    --ink:#123;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: Arial, Helvetica, sans-serif; margin:0; background: var(--mint); color:var(--ink);}
+  header { background: var(--green); color:#fff; padding:22px 16px; text-align:center;}
+  header p { margin:.2rem 0 0; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 18px; }
+  .card { background:#fff; border:1px solid #dbe7de; border-radius:14px; padding:18px; margin:16px 0; box-shadow:0 1px 3px rgba(0,0,0,.05);}
+  h1,h2,h3 { margin:0 0 8px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:16px; }
+  .btn { display:inline-block; padding:10px 14px; border-radius:8px; text-decoration:none; border:1px solid var(--green); }
+  .btn.primary { background:var(--green); color:#fff; }
+  ul { margin:8px 0 0 22px; }
+  .pill { display:inline-block; background:#f1faf2; border:1px solid #d6ead8; padding:4px 8px; border-radius:999px; margin-right:6px; font-size:12px;}
+  footer { text-align:center; font-size:12px; color:#456; padding:22px 0 40px; }
+  .paybox { text-align:center; }
+  .paybox img { width:220px; max-width:100%; border:8px solid #f1faf2; border-radius:12px; }
+  .small { font-size:12px; color:#456; }
+  .menu-day { border-left:6px solid var(--green); padding-left:12px; margin:10px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Fresh Salads by Ismaris</h1>
+  <p>$7 each • 3 for $19 • Order by Sunday 8:00 PM</p>
+</header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>Place Your Order</h2>
+    <p>Complete your selections and delivery/pickup preference using the form below, then submit payment.</p>
+    <p><a class="btn primary" href="https://forms.gle/htVKRc4gnbH6jJQi9" target="_blank" rel="noopener">Open Order Form</a></p>
+    <p class="small">No QR code needed—just tap the button above.</p>
+  </div>
+
+  <div class="card">
+    <h2>This Week's Menu</h2>
+    <div class="menu-day">
+      <h3>Tuesday</h3>
+      <p>Chicken, shredded cheese, lettuce, tomatoes, corn, black beans, onions, and peppers.</p>
+    </div>
+    <div class="menu-day">
+      <h3>Wednesday</h3>
+      <p>Turkey, egg, cheese, lettuce, tomatoes, cucumbers, onions, and peppers. 
+         <span class="pill">Alternative on request: chickpeas or grain salad instead of turkey.</span></p>
+    </div>
+    <div class="menu-day">
+      <h3>Friday</h3>
+      <p>Ham, bacon bits, cheese, lettuce, tomatoes, cucumbers, onions, and peppers. 
+         <span class="pill">Alternative on request: chickpeas or grain salad instead of ham/bacon.</span></p>
+    </div>
+    <p><strong>Dressings:</strong> Ranch, Thousand Island, Balsamic, Blue Cheese, Italian</p>
+    <p><strong>Add‑ons (50¢):</strong> Croutons, extra egg, guacamole, beets</p>
+  </div>
+
+  <div class="card">
+    <h2>Pay Your Way</h2>
+    <div class="grid">
+      <div class="paybox">
+        <h3>Cash App</h3>
+        <p><a class="btn" href="https://cash.app/$ismarisdelacruz" target="_blank" rel="noopener">$ismarisdelacruz</a></p>
+        <img src="qr_cashapp.png" alt="Cash App QR">
+        <p class="small">Add note: <em>Salad + Your Name</em></p>
+      </div>
+      <div class="paybox">
+        <h3>Zelle</h3>
+        <p>Send via your bank app to: <strong>917-526-9564</strong></p>
+        <img src="qr_zelle.png" alt="Zelle QR (shows number)">
+        <p class="small">Add note: <em>Salad + Your Name</em></p>
+      </div>
+      <div class="paybox">
+        <h3>Pay Cash</h3>
+        <p>Accepted at delivery or morning drop‑off.</p>
+        <ul style="text-align:left; display:inline-block;">
+          <li>Main Office (7:30–7:50 AM)</li>
+          <li>Mailbox / Mailroom</li>
+          <li>Teacher’s Lounge (fridge)</li>
+          <li>Pick up from Mr. Acosta (Bldg 7) or Ms. Delacruz</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Notes</h2>
+    <ul>
+      <li>Orders are batched weekly; please order by <strong>Sunday 8:00 PM</strong>.</li>
+      <li>Special: <strong>3 salads for $19</strong> (any days, not consecutive).</li>
+      <li>Please indicate your delivery/pickup choice on the order form.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:Ismaris1205@gmail.com">Ismaris1205@gmail.com</a> &nbsp; | &nbsp;
+       Text: <a href="tel:+19175269564">917-526-9564</a></p>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 Salads by Ismaris</p>
+</footer>
+</body>
+</html>
